@@ -1,0 +1,213 @@
+body{
+    width:1440px;
+    margin: 0;
+    padding: 0px;
+	overflow-x: hidden;
+}
+
+.navigation{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+ .nav-links{
+     color: hsl(243, 87%, 12%);
+     font-family: 'Raleway', sans-serif;
+     font-size: 15px;
+   
+}
+
+.cta-container{
+    width: 100%;
+    display:flex;
+   
+    
+}
+.cta-section{
+    
+    position: relative;
+    margin:3%;
+}
+.cta-container h1{
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 87%, 12%);
+    font-size: 40px;
+
+}
+
+.cta-container p{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%);
+    font-size: 20px;
+
+}
+
+
+.search input{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 300px;
+    height: 23px;
+    padding: 1%;
+    border-radius: 4px;
+}
+
+.search button{
+    color:white;
+    background-color: hsl(224, 93%, 58%);
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 170px;
+    height: 40px;
+    padding: 1%;
+    border-radius: 4px;
+}
+
+.folder-vector img{
+    width: 600px;
+   
+   
+}
+.middle-container{
+    background-image: url(./images/bg-curve-desktop.svg);
+    width: 100%;
+    height: 100%;
+    display:flex;
+    
+}
+.middle-section{
+    position: relative;
+    margin:3%;
+}
+
+.people-vector img{
+    width: 400px;
+}
+
+.middle-container h2{
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 87%, 12%);
+    font-size: 35px;
+
+}
+
+.middle-container p{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%);
+    font-size: 20px;
+
+}
+
+.green-link a{
+    color: hsl(170, 45%, 43%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-bottom: solid 2px hsl(170, 45%, 43%);
+      display: inline;
+      padding-bottom: 3px;
+    
+}
+.green-link svg{
+    width: 30%;
+}
+
+.card{
+    width: 60%;
+    height: 30%;
+    margin: 3%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.card-txt p{
+    font-size: 15px;
+
+}
+
+.image-avatar{
+    display: flex;
+}
+
+
+.image-avatar img{
+    width: 100px;
+    border-radius: 50%;
+    margin:2%;
+}
+
+.bottom-container{
+    background-color:  hsl(238, 22%, 44%);
+    width: 1440px;
+    height: 100%;
+    display:flex;
+   
+}
+
+.bottom-section{
+    position: relative;
+    margin:3%;
+}
+
+.bottom-container h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color:white;
+}
+
+.bottom-container p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color:white;
+}
+
+
+
+.bottom-search input{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 300px;
+    height: 23px;
+    padding: 1%;
+    border-radius: 4px;
+    margin:2%;
+}
+
+.bottom-search button{
+    color:white;
+    background-color: hsl(224, 93%, 58%);
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 170px;
+    height: 40px;
+    padding: 1%;
+    border-radius: 4px;
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    height: 100%;
+}
+
+.no-svg .footer-logo svg{
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(164deg) brightness(100%) contrast(104%);
+}
+
+footer p, span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color:white;
+
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color:white;
+
+}
