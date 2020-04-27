@@ -1,27 +1,37 @@
-body{
-    width:1440px;
-    margin: 0;
+html,body{
+   width:100%;
+   height: 100%;
+    margin: 0px;
     padding: 0px;
-	overflow-x: hidden;
+     
 }
 
+.big-container{
+    max-width: 1440px;
+    margin: 0px;
+    padding: 0px;
+
+}
 .navigation{
-    width:100%;
+    
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    margin:2%;
+    
 }
 
- .nav-links{
+ .nav-links a{
      color: hsl(243, 87%, 12%);
      font-family: 'Raleway', sans-serif;
      font-size: 15px;
+     margin: 10px;
    
 }
 
 .cta-container{
-    width: 100%;
+   
     display:flex;
+   
    
     
 }
@@ -34,6 +44,7 @@ body{
     font-family: 'Raleway', sans-serif;
     color: hsl(243, 87%, 12%);
     font-size: 40px;
+    font-weight: 700;
 
 }
 
@@ -52,6 +63,7 @@ body{
     height: 23px;
     padding: 1%;
     border-radius: 4px;
+    border-color: hsla(243, 87%, 12%, 0.596);
 }
 
 .search button{
@@ -66,15 +78,16 @@ body{
 }
 
 .folder-vector img{
-    width: 600px;
+    width: 580px;
+    margin-left:8%;
    
    
 }
 .middle-container{
     background-image: url(./images/bg-curve-desktop.svg);
-    width: 100%;
     height: 100%;
     display:flex;
+    margin-top: 5%;
     
 }
 .middle-section{
@@ -83,13 +96,15 @@ body{
 }
 
 .people-vector img{
-    width: 400px;
+    width: 500px;
+    margin:10%;
 }
 
 .middle-container h2{
     font-family: 'Raleway', sans-serif;
     color: hsl(243, 87%, 12%);
     font-size: 35px;
+    font-weight: 700;
 
 }
 
@@ -97,6 +112,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: hsl(243, 87%, 12%);
     font-size: 20px;
+    font-weight: 400;
 
 }
 
@@ -115,7 +131,7 @@ body{
 
 .card{
     width: 60%;
-    height: 30%;
+    height: 85%;
     margin: 3%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -123,30 +139,44 @@ body{
 }
 .card-txt p{
     font-size: 15px;
+    text-align: left;
+    line-height: 1.5rem;
+    margin-left:10%;
 
 }
 
 .image-avatar{
     display: flex;
+    align-items: center;
+    margin-left:10%;
+    margin-bottom: 10%;
+}
+
+.image-avatar p{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 1rem;
 }
 
 
+
+
+
 .image-avatar img{
-    width: 100px;
+    width: 60px;
     border-radius: 50%;
-    margin:2%;
 }
 
 .bottom-container{
     background-color:  hsl(238, 22%, 44%);
-    width: 1440px;
-    height: 100%;
     display:flex;
+    justify-content: space-between;
+    width:1440px;
+    
    
 }
 
 .bottom-section{
-    position: relative;
     margin:3%;
 }
 
@@ -162,6 +192,10 @@ body{
     color:white;
 }
 
+.bottom-search{
+    margin-top:5%;
+}
+
 
 
 .bottom-search input{
@@ -171,12 +205,15 @@ body{
     height: 23px;
     padding: 1%;
     border-radius: 4px;
-    margin:2%;
+    margin-bottom: 3%;
+    border-color:hsl(0, 0%, 75%);
 }
 
 .bottom-search button{
     color:white;
     background-color: hsl(224, 93%, 58%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: hsl(224, 93%, 58%) ;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     width: 170px;
@@ -184,30 +221,47 @@ body{
     padding: 1%;
     border-radius: 4px;
 }
-
 footer{
-    background-color: hsl(243, 87%, 12%);
-    height: 100%;
+    width:1440px;
 }
 
-.no-svg .footer-logo svg{
-    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(164deg) brightness(100%) contrast(104%);
+
+.footer-section{
+        position: relative;
+        background-color: hsl(243, 87%, 12%);
+        padding:4%;
+    
 }
 
-footer p, span{
+
+
+.contact-info{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color:white;
+    
+   
 
 }
+
 .links{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: -4%;
 }
 
 .links a{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color:white;
+    
+
 
 }
+.link-part1{
+    margin-left: 3%;
+}
+.social-media{
+    margin-left: 10%;;
+}
+
