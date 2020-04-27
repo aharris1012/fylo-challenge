@@ -171,7 +171,6 @@ html,body{
     background-color:  hsl(238, 22%, 44%);
     display:flex;
     justify-content: space-between;
-    width:1440px;
     
    
 }
@@ -220,9 +219,6 @@ html,body{
     height: 40px;
     padding: 1%;
     border-radius: 4px;
-}
-footer{
-    width:1440px;
 }
 
 
